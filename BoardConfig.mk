@@ -8,16 +8,16 @@
 include device/xiaomi/sm6250-common/BoardConfigCommon.mk
 
 # Inherit proprietary blobs
--include vendor/xiaomi/miatoll/BoardConfigVendor.mk
+-include vendor/xiaomi/curtana/BoardConfigVendor.mk
 
-DEVICE_PATH := device/xiaomi/miatoll
+DEVICE_PATH := device/xiaomi/curtana
 
 # Bootloader
-TARGET_BOOTLOADER_BOARD_NAME := miatoll
+TARGET_BOOTLOADER_BOARD_NAME := curtana
 
 # Init
-TARGET_INIT_VENDOR_LIB := //$(DEVICE_PATH):libinit_miatoll
-TARGET_RECOVERY_DEVICE_MODULES := libinit_miatoll
+TARGET_INIT_VENDOR_LIB := //$(DEVICE_PATH):libinit_curtana
+TARGET_RECOVERY_DEVICE_MODULES := libinit_curtana
 
 # HIDL
 ODM_MANIFEST_SKUS += \
