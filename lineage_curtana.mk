@@ -16,6 +16,6 @@ PRODUCT_MANUFACTURER := Xiaomi
 PRODUCT_GMS_CLIENTID_BASE := android-xiaomi
 
 PRODUCT_BUILD_PROP_OVERRIDES += \
-    PRIVATE_BUILD_DESC="curtana_global-user 10 QKQ1.191215.002 V12.0.1.0.QJWMIXM release-keys"
+    PRIVATE_BUILD_DESC="curtana_global-user 10 QKQ1.191215.002 V11.0.10.0.QJWMIXM release-keys"
 
-BUILD_FINGERPRINT := Redmi/curtana_global/curtana:10/QKQ1.191215.002/V12.0.1.0.QJWMIXM:user/release-keys
+BUILD_FINGERPRINT := Redmi/curtana_global/curtana:10/QKQ1.191215.002/V11.0.10.0.QJWMIXM:user/release-keys
